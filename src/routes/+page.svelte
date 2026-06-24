@@ -1,8 +1,8 @@
 <script lang="ts">
 	import IconSchool from '~icons/mdi/school-outline'; // Иконка "Начать освоение"
 	import IconTune from '~icons/mdi/tune'; // Иконка "Поменять тему"
-	import FlutterLogo from '$lib/assets/flutter.svg';
-	import DartLogo from '$lib/assets/dart.svg';
+	import SvelteLogo from '$lib/assets/svelte.svg';
+	import TypeScriptLogo from '$lib/assets/typescript.svg';
 	import { uiState } from '$lib/state/ui.svelte.js';
 	import { resolve } from '$app/paths';
 
@@ -10,29 +10,29 @@
 </script>
 
 <svelte:head>
-	<title>EasyFlutter — Всё о Dart и Flutter</title>
+	<title>EasySvelte — Всё о TypeScript и Svelte</title>
 </svelte:head>
 
 <!-- 1. HERO SECTION (Приветственная карточка) -->
 <section class="hero-card">
 	<div class="hero-content">
 		<div class="hero-titles">
-			<h1 class="hero-title">Всё о Dart и Flutter — в одном месте!</h1>
+			<h1 class="hero-title">Всё о TypeScript и Svelte — в одном месте!</h1>
 			<p class="hero-subtitle">
 				Здесь вы найдете уроки на любой вкус: от основ и первых виджетов до работы с нативными
 				компонентами
 			</p>
 		</div>
 
-		<a href={resolve('/lessons/what-is-flutter')} class="btn btn-primary">
+		<a href={resolve('/lessons/what-is-svelte')} class="btn btn-primary">
 			<IconSchool style="font-size: 1.5rem;" />
 			<span>Начать освоение!</span>
 		</a>
 	</div>
 
 	<div class="hero-images">
-		<img src={FlutterLogo} alt="Flutter Logo" class="logo-flutter" />
-		<img src={DartLogo} alt="Dart Logo" class="logo-dart" />
+		<img src={SvelteLogo} alt="Svelte Logo" class="logo-svelte" />
+		<img src={TypeScriptLogo} alt="TypeScript Logo" class="logo-typescript" />
 	</div>
 </section>
 
@@ -167,13 +167,13 @@
 		justify-content: space-evenly;
 	}
 
-	.logo-flutter {
+	.logo-svelte {
 		width: 120px;
 		align-self: flex-start;
 		height: auto;
 	}
 
-	.logo-dart {
+	.logo-typescript {
 		width: 140px;
 		align-self: flex-end;
 		height: auto;
@@ -311,11 +311,11 @@
 			justify-content: space-evenly;
 		}
 
-		.logo-flutter {
+		.logo-svelte {
 			width: 80px;
 		}
 
-		.logo-dart {
+		.logo-typescript {
 			width: 80px;
 		}
 

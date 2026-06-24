@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Stiemap: https://easyflutter-course.vercel.app/sitemap.xml
+Stiemap: https://easysvelte-course.vercel.app/sitemap.xml

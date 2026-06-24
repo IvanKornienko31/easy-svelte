@@ -20,9 +20,9 @@ export interface Chapter {
 // Словарь для красивых названий глав
 const CHAPTER_NAMES: Record<string, string> = {
 	'01-introduction': 'Введение',
-	'02-dart-basics': 'Основы Dart',
+	'02-typescript-basics': 'Основы TypeScript',
 	'03-oop': 'Объектно-ориентированное программирование',
-	'04-flutter-basics': 'Основы Flutter'
+	'04-svelte-basics': 'Основы Svelte'
 };
 
 /**
@@ -80,9 +80,9 @@ export const getAllPosts = async (): Promise<Post[]> => {
 		const { data, content } = matter(fileContent);
 
 		// 1. Разбираем путь к файлу
-		// path: /src/content/01-introduction/02-why-flutter.md
+		// path: /src/content/01-introduction/02-why-svelte.md
 		const pathParts = path.split('/');
-		const fileName = pathParts.pop() || ''; // 02-why-flutter.md
+		const fileName = pathParts.pop() || ''; // 02-why-svelte.md
 		const chapterFolder = pathParts.pop() || ''; // 01-introduction
 
 		// 2. Вычисляем порядок (Order) из имени файла

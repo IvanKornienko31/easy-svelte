@@ -1,11 +1,11 @@
 {
-  "name": "EasyFlutter — Курс по Dart и Flutter",
-  "short_name": "EasyFlutter",
+  "name": "EasySvelte — Курс по TypeScript и Svelte",
+  "short_name": "EasySvelte",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F8FAFC",
   "theme_color": "#01579B",
-  "description": "Интерактивная образовательная платформа для изучения Dart и Flutter.",
+  "description": "Интерактивная образовательная платформа для изучения TypeScript и Svelte.",
   "icons": [
     {
       "src": "favicon.png",

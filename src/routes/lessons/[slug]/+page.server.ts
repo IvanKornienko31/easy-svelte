@@ -75,7 +75,7 @@ const cssVariablesTheme: object = {
 	]
 };
 
-// Загружаем языки (Dart и другие)
+// Загружаем языки (ts и другие)
 // Используем Object.values или конкретные ключи, чтобы Vite их увидел
 const loadLang = async (lang: keyof typeof bundledLanguages) => {
 	const mod = await bundledLanguages[lang]();
@@ -87,8 +87,8 @@ const highlighter = await createHighlighter({
 		cssVariablesTheme // Передаем наш объект темы
 	],
 	langs: [
-		await loadLang('dart'),
-		await loadLang('yaml'),
+		await loadLang('ts'),
+		await loadLang('svelte'),
 		await loadLang('bash'),
 		await loadLang('json'),
 		await loadLang('xml')

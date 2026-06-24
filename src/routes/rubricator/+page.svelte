@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head>
-	<title>Рубрикатор — EasyFlutter</title>
+	<title>Рубрикатор — EasySvelte</title>
 </svelte:head>
 
 <div class="rubricator-page">

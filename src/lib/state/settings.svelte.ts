@@ -29,7 +29,7 @@ class SettingsState {
 	}
 
 	load() {
-		const stored = localStorage.getItem('easyflutter-settings');
+		const stored = localStorage.getItem('easysvelte-settings');
 		if (stored) {
 			try {
 				const parsed = JSON.parse(stored);
@@ -62,7 +62,7 @@ class SettingsState {
 			codeLetterSpacing: this.codeLetterSpacing,
 			codeLineHeight: this.codeLineHeight
 		};
-		localStorage.setItem('easyflutter-settings', JSON.stringify(data));
+		localStorage.setItem('easysvelte-settings', JSON.stringify(data));
 	}
 
 	apply() {

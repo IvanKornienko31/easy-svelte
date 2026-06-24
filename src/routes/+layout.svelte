@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<meta property="og:site_name" content="EasyFlutter" />
+	<meta property="og:site_name" content="EasySvelte" />
 	<meta property="og:locale" content="ru_RU" />
 	<meta property="og:type" content="website" />
 	<link rel="icon" href={Favicon} />
@@ -31,7 +31,7 @@
 	<footer
 		style="padding: 1rem; background: var(--color-primary); color: white; margin-top: auto; text-align:center"
 	>
-		© 2025 EasyFlutter
+		© 2026 EasySvelte
 	</footer>
 
 	<SearchModal searchIndex={data.searchIndex} />

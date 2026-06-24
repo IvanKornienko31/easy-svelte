@@ -1,8 +1,8 @@
-# Easy Flutter App
+# Easy Svelte App
 
 ## About
 
-This is a Flutter guide application with bunch of customizations (like changing size of font, letter spacing etc.) for the entire app and code blocks separately from each other.
+This is a Svelte guide application with bunch of customizations (like changing size of font, letter spacing etc.) for the entire app and code blocks separately from each other.
 
 PWA support is available.
 

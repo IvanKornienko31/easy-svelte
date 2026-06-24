@@ -11,7 +11,7 @@
 	<div class="header-container">
 		<!-- 1. ЛЕВАЯ ЧАСТЬ: Логотип -->
 		<div class="header-left">
-			<a href={resolve('/')} class="logo"> EasyFlutter </a>
+			<a href={resolve('/')} class="logo"> EasySvelte </a>
 		</div>
 
 		<!-- 2. ЦЕНТРАЛЬНАЯ ЧАСТЬ: Поиск (Абсолютное центрирование) -->
